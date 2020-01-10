@@ -15,23 +15,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1F8-Yi-cjR">
-                                <rect key="frame" x="0.0" y="44" width="50" height="50"/>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1F8-Yi-cjR">
+                                <rect key="frame" x="0.0" y="44" width="25" height="25"/>
                                 <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.80941104890000004" green="0.09240407497" blue="0.090122900899999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="50" id="5RH-Fe-BUD"/>
-                                    <constraint firstAttribute="height" constant="50" id="9Id-DU-GnA"/>
+                                    <constraint firstAttribute="width" constant="25" id="5RH-Fe-BUD"/>
+                                    <constraint firstAttribute="height" constant="25" id="9Id-DU-GnA"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="25" id="TUH-Ca-x6x"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="25" id="dWf-ZX-yaO"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="1F8-Yi-cjR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="dpJ-CK-sDJ"/>
-                            <constraint firstItem="1F8-Yi-cjR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="iMO-iI-uWa"/>
-                            <constraint firstItem="1F8-Yi-cjR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="jeR-gU-PHF"/>
-                            <constraint firstItem="1F8-Yi-cjR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="oq7-pu-Col"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
