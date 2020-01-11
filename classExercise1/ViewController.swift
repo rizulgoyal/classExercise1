@@ -190,7 +190,7 @@ class ViewController: UIViewController {
                 },
                            completion: { finished in
                             
-                            self.rotateanticlockwise()
+                         //   self.rotateanticlockwise()
                             
                         
                 })
@@ -268,7 +268,7 @@ class ViewController: UIViewController {
                     completion:
                    { finished in
                     
-                    self.rotateclockwise()
+                   // self.rotateclockwise()
                    
                     
                     
